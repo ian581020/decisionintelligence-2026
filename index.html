@@ -1,0 +1,1163 @@
+<!DOCTYPE html>
+<html lang="zh-TW" class="scroll-smooth">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>重生之我是行銷大師：9年神預言開掛避坑錄 (2018-2026) | 2026 決策智慧 Agentic Era 全息展讀誌</title>
+
+  <!-- Tailwind CSS CDN -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      darkMode: 'class',
+      theme: {
+        extend: {
+          colors: {
+            cyberDark: '#080C14',
+            cyberCard: '#0E1424',
+            cyberPanel: '#131B30',
+            neonCyan: '#00F0FF',
+            laserLime: '#10B981',
+            neonGreen: '#39FF14',
+            neonOrange: '#FF6B00',
+            neonPurple: '#A855F7',
+            matrixText: '#94A3B8',
+          },
+          fontFamily: {
+            sans: ['Inter', 'Noto Sans TC', 'system-ui', 'sans-serif'],
+            serif: ['Noto Serif TC', 'Songti TC', 'Georgia', 'serif'],
+            mono: ['JetBrains Mono', 'Fira Code', 'monospace']
+          },
+          boxShadow: {
+            'neon-cyan': '0 0 20px rgba(0, 240, 255, 0.25)',
+            'neon-lime': '0 0 20px rgba(57, 255, 20, 0.25)',
+            'neon-orange': '0 0 20px rgba(255, 107, 0, 0.25)',
+            'cyber-glass': '0 10px 30px -5px rgba(0,0,0,0.7), inset 0 0 0 1px rgba(0,240,255,0.15)',
+            'hologram': '0 15px 45px rgba(0, 240, 255, 0.15), 0 0 0 1px rgba(0, 240, 255, 0.25)'
+          }
+        }
+      }
+    }
+  </script>
+
+  <!-- Google Fonts, Lucide Icons & Confetti -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;600;700;800&family=Noto+Sans+TC:wght@400;500;700;900&family=Noto+Serif+TC:wght@600;700;900&display=swap" rel="stylesheet">
+  <script src="https://unpkg.com/lucide@latest"></script>
+  <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.9.3/dist/confetti.browser.min.js"></script>
+
+  <style>
+    body {
+      background-color: #080C14;
+      color: #F1F5F9;
+      background-image: 
+        linear-gradient(rgba(0, 240, 255, 0.03) 1px, transparent 1px),
+        linear-gradient(90deg, rgba(0, 240, 255, 0.03) 1px, transparent 1px);
+      background-size: 32px 32px;
+    }
+
+    /* Cyber scanline overlay */
+    .scanlines {
+      background: linear-gradient(rgba(18, 16, 16, 0) 50%, rgba(0, 0, 0, 0.25) 50%), linear-gradient(90deg, rgba(255, 0, 0, 0.03), rgba(0, 255, 0, 0.01), rgba(0, 0, 255, 0.03));
+      background-size: 100% 3px, 6px 100%;
+      pointer-events: none;
+    }
+
+    .cyber-pill {
+      display: inline-block;
+      background: rgba(0, 240, 255, 0.12);
+      border: 1px solid #00F0FF;
+      color: #00F0FF;
+      padding: 0.15em 0.5em;
+      border-radius: 4px;
+      font-family: 'JetBrains Mono', monospace;
+      font-weight: 700;
+    }
+
+    /* Holographic Magazine transitions */
+    .mag-page {
+      transition: all 0.4s cubic-bezier(0.16, 1, 0.3, 1);
+    }
+    .mag-page.inactive {
+      display: none;
+      opacity: 0;
+      transform: scale(0.96) translateY(12px);
+    }
+    .mag-page.active {
+      display: block;
+      opacity: 1;
+      transform: scale(1) translateY(0);
+    }
+
+    /* Custom Scrollbar */
+    ::-webkit-scrollbar { width: 5px; height: 5px; }
+    ::-webkit-scrollbar-track { background: #080C14; }
+    ::-webkit-scrollbar-thumb { background: #00F0FF; border-radius: 3px; }
+  </style>
+</head>
+
+<body class="selection:bg-neonCyan selection:text-cyberDark font-sans antialiased min-h-screen flex flex-col justify-between relative overflow-x-hidden">
+
+  <!-- Top Progress Line -->
+  <div class="fixed top-0 left-0 w-full h-1 z-50 bg-cyberDark border-b border-cyan-950">
+    <div id="scroll-progress-bar" class="h-full bg-gradient-to-r from-neonCyan via-laserLime to-neonOrange w-0 transition-all duration-75"></div>
+  </div>
+
+  <!-- Cyberpunk Top HUD Bar -->
+  <header class="sticky top-1 z-40 bg-cyberDark/90 backdrop-blur-md border-b border-cyan-900/60 px-4 sm:px-8 py-3.5">
+    <div class="max-w-6xl mx-auto flex items-center justify-between">
+      <div class="flex items-center gap-3">
+        <div class="w-8 h-8 rounded bg-cyan-950 border border-neonCyan flex items-center justify-center font-mono font-black text-neonCyan text-xs shadow-neon-cyan">
+          26
+        </div>
+        <div>
+          <div class="flex items-center gap-2">
+            <span class="text-[10px] font-mono tracking-widest text-neonCyan font-bold uppercase">AGENTIC ERA CORE // VER 2026.1</span>
+            <span class="w-1.5 h-1.5 rounded-full bg-laserLime animate-ping"></span>
+          </div>
+          <h1 class="text-xs sm:text-sm font-bold text-slate-100 font-mono tracking-tight">
+            重生之我是行銷大師：9年神預言開掛避坑錄
+          </h1>
+        </div>
+      </div>
+
+      <!-- Quick Actions -->
+      <div class="flex items-center gap-2.5">
+        <a href="#magazine-reader-anchor" class="hidden sm:flex items-center gap-1.5 text-xs font-mono font-bold px-3 py-1.5 bg-cyberPanel border border-neonCyan/40 text-neonCyan hover:border-neonCyan transition rounded">
+          <i data-lucide="book-open" class="w-3.5 h-3.5"></i>
+          <span>全息特刊翻閱艙</span>
+        </a>
+        <a href="#timeline-section" class="hidden md:flex items-center gap-1.5 text-xs font-mono font-bold px-3 py-1.5 bg-cyberPanel border border-neonOrange/40 text-neonOrange hover:border-neonOrange transition rounded">
+          <i data-lucide="history" class="w-3.5 h-3.5"></i>
+          <span>9年時光矩陣</span>
+        </a>
+        <a href="#quiz-section" class="flex items-center gap-1.5 text-xs font-mono font-bold px-3.5 py-1.5 bg-neonOrange text-slate-950 hover:bg-orange-400 transition rounded font-black shadow-neon-orange">
+          <i data-lucide="shield-check" class="w-3.5 h-3.5"></i>
+          <span>測生存段位</span>
+        </a>
+      </div>
+    </div>
+  </header>
+
+  <!-- CYBER HERO SECTION (SYSTEM TELEMETRY + CLEAN UN-OVERLAPPED TITLES) -->
+  <section class="pt-12 sm:pt-16 pb-12 px-4 max-w-5xl mx-auto text-center relative">
+    <!-- Live Telemetry HUD -->
+    <div class="inline-flex flex-wrap items-center justify-center gap-3 px-3.5 py-1.5 bg-cyberPanel/90 border border-cyan-500/30 rounded-lg text-xs font-mono mb-6 shadow-cyber-glass">
+      <span class="flex items-center gap-1.5 text-neonCyan font-bold">
+        <span class="w-2 h-2 rounded-full bg-neonCyan"></span>
+        CHRONOS MATRIX: 2018-2026
+      </span>
+      <span class="text-slate-500">|</span>
+      <span class="text-laserLime font-semibold">PEOPLE MODEL SIM: r=0.89</span>
+      <span class="text-slate-500">|</span>
+      <span class="text-neonOrange font-semibold">AI AGENTIC SYNC: ONLINE</span>
+    </div>
+
+    <!-- Main Headline with comfortable line-height -->
+    <h2 class="font-serif text-3xl sm:text-5xl md:text-6xl font-black text-slate-50 tracking-tight leading-[1.3] sm:leading-[1.25] mb-6">
+      重生之我是行銷大師：<br>
+      <span class="cyber-pill inline-block my-1.5 text-2xl sm:text-4xl md:text-5xl font-mono text-neonCyan border-neonCyan">
+        翻開 9 年神預言
+      </span><br>
+      這一次，我直接在 AI 代理商場開掛！
+    </h2>
+
+    <p class="text-sm sm:text-base text-slate-400 max-w-2xl mx-auto leading-relaxed mb-6 font-sans">
+      電通 2026 最新一期《決策智慧》極客解讀：當購物漏斗被 AI 代理人截胡比價、內容生成淪為 AI Slop 垃圾，品牌如何用「無法被計算的真實偏心」建立最高維護城河？
+    </p>
+
+    <!-- 2026 3D Floating Book Cover Showcase -->
+    <div class="flex flex-col items-center justify-center my-6">
+      <div onclick="toggleCoverFull()" class="group relative cursor-pointer" title="點擊檢視 2026 特刊全景展開圖">
+        <div class="relative w-[210px] sm:w-[250px] aspect-[1/1.42] rounded-r-lg overflow-hidden border-2 border-neonCyan/40 shadow-neon-cyan transform transition-all duration-500 group-hover:-translate-y-2 group-hover:scale-105 group-hover:shadow-[0_0_35px_rgba(0,240,255,0.4)] bg-[#cbb89e]">
+          <!-- Cropped right-half showing front cover -->
+          <img 
+            src="封面示意.jpg" 
+            alt="《決策智慧 2026》實體封面" 
+            class="w-[200%] h-full max-w-none object-cover transform -translate-x-1/2"
+            onerror="this.src='https://placehold.co/400x560/cbb89e/18181b?text=2026+AGENTIC+ERA+COVER'"
+          />
+          <div class="absolute inset-0 bg-gradient-to-tr from-black/40 via-transparent to-white/10 pointer-events-none"></div>
+          <div class="absolute top-2 left-2 bg-cyberDark/90 border border-neonCyan text-neonCyan text-[10px] font-mono font-bold px-2 py-0.5 rounded shadow">
+            2026 ISSUE #09
+          </div>
+          <div class="absolute bottom-2 right-2 bg-cyberDark/90 border border-neonOrange text-neonOrange text-[10px] font-mono font-bold px-2 py-0.5 rounded shadow flex items-center gap-1">
+            <i data-lucide="maximize-2" class="w-3 h-3"></i> 展開全貌
+          </div>
+        </div>
+      </div>
+      <button onclick="toggleCoverFull()" class="mt-3 inline-flex items-center gap-2 text-xs font-mono font-bold text-neonCyan hover:text-white transition">
+        <i data-lucide="eye" class="w-3.5 h-3.5"></i>
+        <span>查看實體展開封面全景 (Gatefold View)</span>
+      </button>
+    </div>
+
+    <!-- Quick CTA Cluster -->
+    <div class="flex flex-wrap items-center justify-center gap-3.5 text-xs font-mono font-bold">
+      <a href="#magazine-reader-anchor" class="px-5 py-3 bg-neonCyan text-slate-950 hover:bg-cyan-300 transition flex items-center gap-2 rounded shadow-neon-cyan">
+        <i data-lucide="cpu" class="w-4 h-4"></i>
+        <span>啟動全息特刊閱讀艙 (2026)</span>
+      </a>
+      <a href="#timeline-section" class="px-5 py-3 bg-cyberCard border border-slate-700 hover:border-neonCyan text-slate-200 transition flex items-center gap-2 rounded shadow-cyber-glass">
+        <i data-lucide="git-commit" class="w-4 h-4 text-laserLime"></i>
+        <span>檢視 2018-2026 神預言矩陣</span>
+      </a>
+      <a href="#quiz-section" class="px-5 py-3 bg-cyberCard border border-neonOrange/50 hover:border-neonOrange text-neonOrange transition flex items-center gap-2 rounded">
+        <i data-lucide="zap" class="w-4 h-4"></i>
+        <span>直接檢定 5 大生存階級</span>
+      </a>
+    </div>
+  </section>
+
+  <!-- ============================================================ -->
+  <!-- FEATURE 1: 3D HOLOGRAPHIC 2026 VIRTUAL SPREAD VIEWER         -->
+  <!-- ============================================================ -->
+  <section id="magazine-reader-anchor" class="py-10 px-4 max-w-5xl mx-auto">
+    <div class="flex flex-col sm:flex-row sm:items-end justify-between border-b border-cyan-900/60 pb-3.5 mb-6 gap-3">
+      <div>
+        <div class="inline-block bg-cyan-950 border border-neonCyan text-neonCyan px-2.5 py-0.5 text-[10px] font-mono font-black rounded mb-1">
+          DECISION WISDOM 2026 // HOLOGRAPHIC SPREAD
+        </div>
+        <h3 class="font-serif text-2xl sm:text-3xl font-black text-slate-100 flex items-center gap-2">
+          <span>2026《決策智慧》全息特刊線上展讀艙</span>
+          <span class="text-xs font-mono text-laserLime font-normal">● 實時模擬</span>
+        </h3>
+      </div>
+      <!-- Controls -->
+      <div class="flex items-center gap-2 font-mono">
+        <button id="btn-prev-page" class="p-2 bg-cyberCard border border-slate-700 text-slate-200 hover:border-neonCyan hover:text-neonCyan rounded transition">
+          <i data-lucide="chevron-left" class="w-4 h-4"></i>
+        </button>
+        <span id="page-indicator" class="text-xs font-bold px-3 py-1.5 bg-cyberPanel border border-slate-800 text-neonCyan rounded">
+          SPREAD 1 / 5
+        </span>
+        <button id="btn-next-page" class="p-2 bg-cyberCard border border-slate-700 text-slate-200 hover:border-neonCyan hover:text-neonCyan rounded transition">
+          <i data-lucide="chevron-right" class="w-4 h-4"></i>
+        </button>
+      </div>
+    </div>
+
+    <!-- The Cyber Magazine Display Container -->
+    <div class="relative max-w-4xl mx-auto bg-cyberCard border border-cyan-500/30 rounded-2xl shadow-hologram p-4 sm:p-7">
+      
+      <!-- PAGE 1: COVER WITH PHYSICAL ASSET -->
+      <div class="mag-page active" data-page="1">
+        <div class="aspect-[4/3] sm:aspect-[16/10] bg-gradient-to-br from-cyberDark via-cyberPanel to-[#0B1528] rounded-xl p-5 sm:p-8 flex flex-col justify-between border border-cyan-500/40 relative overflow-hidden">
+          <div class="absolute right-0 top-0 w-80 h-80 bg-neonCyan/10 rounded-full blur-3xl pointer-events-none"></div>
+          
+          <div class="flex justify-between items-start font-mono text-xs border-b border-cyan-900/60 pb-2.5">
+            <span class="text-neonCyan font-black tracking-wider flex items-center gap-1.5">
+              <i data-lucide="box" class="w-3.5 h-3.5"></i> DENTSU INTELLIGENCE 2026
+            </span>
+            <span class="text-slate-400">FLAGSHIP EDITION // AGENTIC ERA</span>
+          </div>
+
+          <!-- Magazine Cover Display with Physical Art -->
+          <div class="grid grid-cols-1 md:grid-cols-12 gap-5 items-center my-auto py-2 z-10">
+            <!-- Left: Book Cover preview (Cropped Right half) -->
+            <div class="md:col-span-5 flex justify-center">
+              <div onclick="toggleCoverFull()" class="relative w-[150px] sm:w-[190px] aspect-[1/1.42] rounded-r-md overflow-hidden border border-neonCyan/50 shadow-neon-cyan group cursor-pointer bg-[#cbb89e]">
+                <img 
+                  src="封面示意.jpg" 
+                  alt="2026 決策智慧封面" 
+                  class="w-[200%] h-full max-w-none object-cover transform -translate-x-1/2 transition-transform duration-500 group-hover:scale-105"
+                  onerror="this.src='https://placehold.co/400x560/cbb89e/18181b?text=2026+AGENTIC+ERA+COVER'"
+                />
+                <div class="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent flex items-end p-2 opacity-0 group-hover:opacity-100 transition">
+                  <span class="text-[10px] font-mono text-neonCyan font-bold">點擊檢視牛皮紙全景 ↗</span>
+                </div>
+              </div>
+            </div>
+
+            <!-- Right: Overview Metadata -->
+            <div class="md:col-span-7 space-y-2.5 text-left">
+              <div class="inline-block bg-neonOrange/20 border border-neonOrange text-neonOrange px-2.5 py-0.5 rounded text-[11px] font-mono font-bold uppercase">
+                THE NEW DISTANCE
+              </div>
+              <h4 class="font-serif text-2xl sm:text-3xl font-black text-white leading-tight">
+                Agentic Era：<br>
+                <span class="text-neonCyan">重塑品牌與人的真實距離</span>
+              </h4>
+              <p class="text-xs text-slate-300 leading-relaxed font-sans">
+                「當品牌離 AI 越近，會不會反而離人越遠？」在 AI 代理人接管購物漏斗的世代，電通正式提出 People Model (r=0.89) 決策模擬，並指明：<strong>唯有真人的偏心與不完美的瑕疵，才是不可替代的護城河。</strong>
+              </p>
+              <div class="flex items-center gap-3 pt-1">
+                <button onclick="toggleCoverFull()" class="px-3 py-1.5 bg-cyberDark border border-neonCyan/40 hover:border-neonCyan text-neonCyan text-xs font-mono font-bold rounded flex items-center gap-1.5 transition">
+                  <i data-lucide="image" class="w-3.5 h-3.5"></i>
+                  <span>展開完整封面封底全景</span>
+                </button>
+              </div>
+            </div>
+          </div>
+
+          <div class="flex flex-wrap justify-between items-center text-[11px] font-mono text-slate-400 pt-2.5 border-t border-cyan-900/60">
+            <span>發行人：唐心慧 ｜ 總編輯：邵懿文 ｜ 副總編輯：陳介立</span>
+            <span class="text-neonCyan font-bold flex items-center gap-1">
+              點擊右上切換展區 ➔
+            </span>
+          </div>
+        </div>
+      </div>
+
+      <!-- PAGE 2: RAINBOW CLOUD & AI SLOP (周麗君) -->
+      <div class="mag-page inactive" data-page="2">
+        <div class="aspect-[4/3] sm:aspect-[16/10] bg-cyberPanel rounded-xl p-6 sm:p-8 border border-slate-700 flex flex-col justify-between">
+          <div class="flex justify-between items-center border-b border-slate-700 pb-3">
+            <span class="text-xs font-mono font-bold text-neonOrange">PAVILION 01 // 真實的力量重新定義中</span>
+            <span class="text-xs font-mono text-slate-400">周麗君 Alice Chou 觀點</span>
+          </div>
+
+          <div class="grid grid-cols-1 md:grid-cols-2 gap-5 items-center my-3">
+            <div class="space-y-2.5">
+              <div class="inline-block bg-orange-950/60 border border-neonOrange text-neonOrange text-[11px] font-mono font-bold px-2 py-0.5 rounded">
+                PARADOX OF REALITY
+              </div>
+              <h4 class="font-serif text-xl sm:text-2xl font-black text-white leading-snug">
+                真實的彩虹雲被酸假圖，<br>Prada 實拍被批 AI 垃圾。
+              </h4>
+              <p class="text-xs text-slate-300 leading-relaxed font-sans">
+                印尼民眾拍到真彩虹雲，全網留言「太扯一定是 AI」；教宗打電話給銀行，被當深偽掛斷；Prada 動員 50 人實景拍攝大片，卻遭酸民罵「AI Slop (生成垃圾)」。
+              </p>
+            </div>
+
+            <div class="bg-cyberDark/90 border border-cyan-500/30 p-4 rounded-xl shadow-cyber-glass text-xs space-y-2 font-sans">
+              <span class="font-mono text-neonCyan font-black text-xs block">⚡ 2026 戰略核心：</span>
+              <p class="text-slate-200 leading-relaxed">
+                「在 AI 隨手一按即可產出 100% 完美的世代，<strong>人為的瑕疵、溫度、偶發的不完美，才是人類活著的唯一證據，也是品牌最貴的資產！</strong>」
+              </p>
+              <div class="text-[10px] font-mono text-slate-400 pt-2 border-t border-slate-800">
+                出處：《決策智慧 2026》P.20-27 ｜ 案例：The RealReal 毀損包辨識廣告
+              </div>
+            </div>
+          </div>
+
+          <div class="text-[11px] font-mono text-slate-400 border-t border-slate-800 pt-2 flex justify-between">
+            <span>核心關鍵字：AI Slop 衝擊 ｜ 不完美美學 ｜ 情感認同</span>
+            <span>頁碼：02</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- PAGE 3: AGENTIC INTERCEPTION & FAVORITISM (陳蒔) -->
+      <div class="mag-page inactive" data-page="3">
+        <div class="aspect-[4/3] sm:aspect-[16/10] bg-cyberPanel rounded-xl p-6 sm:p-8 border border-slate-700 flex flex-col justify-between">
+          <div class="flex justify-between items-center border-b border-slate-700 pb-3">
+            <span class="text-xs font-mono font-bold text-neonCyan">PAVILION 02 // 代理人截胡與偏心算力</span>
+            <span class="text-xs font-mono text-slate-400">陳蒔 Rene Chen 觀點</span>
+          </div>
+
+          <div class="grid grid-cols-1 md:grid-cols-2 gap-5 items-center my-3">
+            <div class="space-y-2.5">
+              <div class="inline-block bg-cyan-950/60 border border-neonCyan text-neonCyan text-[11px] font-mono font-bold px-2 py-0.5 rounded">
+                THE ZERO-CLICK SQUEEZE
+              </div>
+              <h4 class="font-serif text-xl sm:text-2xl font-black text-white leading-snug">
+                AI 可以幫人買東西，<br>但品牌要讓人「想買東西」！
+              </h4>
+              <p class="text-xs text-slate-300 leading-relaxed font-sans">
+                消費者只對語音丟一句話：「幫我挑 35 歲生日禮物」。AI Agent 瞬間比價過濾。傳統漏斗完全失效，品牌隨時在中途被演算法更便宜的選項截胡。
+              </p>
+            </div>
+
+            <div class="bg-cyberDark/90 border border-cyan-500/30 p-4 rounded-xl shadow-cyber-glass text-xs space-y-2 font-sans">
+              <span class="font-mono text-laserLime font-black text-xs block">🎯 2026 戰略核心：</span>
+              <p class="text-slate-200 leading-relaxed">
+                「Agent 攔截的是交易流程，品牌要創造的是購買動機。<strong>AI 給的是最划算的推薦，品牌要給的是不講理的『偏心』！</strong>」
+              </p>
+              <div class="text-[10px] font-mono text-slate-400 pt-2 border-t border-slate-800">
+                出處：《決策智慧 2026》P.50-57 ｜ 案例：Gogoro 玩具總動員小編、Zespri AI 早餐隊
+              </div>
+            </div>
+          </div>
+
+          <div class="text-[11px] font-mono text-slate-400 border-t border-slate-800 pt-2 flex justify-between">
+            <span>核心關鍵字：對話式商務 ｜ 情緒價值 ｜ 社交貨幣</span>
+            <span>頁碼：03</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- PAGE 4: ATTENTION APM & DOOM LOOP (徐莉媛) -->
+      <div class="mag-page inactive" data-page="4">
+        <div class="aspect-[4/3] sm:aspect-[16/10] bg-cyberPanel rounded-xl p-6 sm:p-8 border border-slate-700 flex flex-col justify-between">
+          <div class="flex justify-between items-center border-b border-slate-700 pb-3">
+            <span class="text-xs font-mono font-bold text-laserLime">PAVILION 03 // 告別廣告末日循環</span>
+            <span class="text-xs font-mono text-slate-400">徐莉媛 Amy Hsu 觀點</span>
+          </div>
+
+          <div class="grid grid-cols-1 md:grid-cols-2 gap-5 items-center my-3">
+            <div class="space-y-2.5">
+              <div class="inline-block bg-emerald-950/60 border border-laserLime text-laserLime text-[11px] font-mono font-bold px-2 py-0.5 rounded">
+                DOOM LOOP BREAKTHROUGH
+              </div>
+              <h4 class="font-serif text-xl sm:text-2xl font-black text-white leading-snug">
+                買了一億次曝光，<br>消費者記住了幾次？
+              </h4>
+              <p class="text-xs text-slate-300 leading-relaxed font-sans">
+                人類平均螢幕停留時間跌破 47 秒。報表上的點擊成本年年壓低，但品牌知名度卻連年縮水，陷入成效越優化、品牌越萎縮的「The Doom Loop」。
+              </p>
+            </div>
+
+            <div class="space-y-2 font-mono text-xs">
+              <div class="bg-cyberDark border border-slate-800 p-2.5 rounded-lg flex justify-between items-center">
+                <span class="text-slate-400 text-[11px]">強迫播放廣告 (被迫注視)</span>
+                <span class="text-neonOrange font-bold">基準 1x (滿眼找 Skip)</span>
+              </div>
+              <div class="bg-emerald-950/40 border border-laserLime p-2.5 rounded-lg flex justify-between items-center">
+                <span class="text-laserLime text-[11px]">主動自願注視 &gt; 10 秒</span>
+                <span class="text-white font-black bg-laserLime/20 px-2 py-0.5 rounded">+79% 記憶率</span>
+              </div>
+              <p class="text-[11px] text-slate-300 font-sans pt-1">
+                「可視率只是門票，注意力 APM 才是資產。把媒體做成 CeraVe 捷運吊環般的親身體驗！」
+              </p>
+            </div>
+          </div>
+
+          <div class="text-[11px] font-mono text-slate-400 border-t border-slate-800 pt-2 flex justify-between">
+            <span>出處：《決策智慧 2026》P.72-79 ｜ 指標：APM (Attention Per Mille)</span>
+            <span>頁碼：04</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- PAGE 5: PEOPLE MODEL SIMULATOR (陳介立) -->
+      <div class="mag-page inactive" data-page="5">
+        <div class="aspect-[4/3] sm:aspect-[16/10] bg-gradient-to-br from-cyberPanel to-emerald-950/30 rounded-xl p-6 sm:p-8 border border-laserLime/50 flex flex-col justify-between">
+          <div class="flex justify-between items-center border-b border-laserLime/30 pb-3">
+            <span class="text-xs font-mono font-bold text-laserLime">PAVILION 04 // 虛擬受眾 People Model 0.89</span>
+            <span class="text-xs font-mono text-slate-300">陳介立 Bass Chen 觀點</span>
+          </div>
+
+          <div class="my-3 space-y-3">
+            <div class="flex flex-col sm:flex-row justify-between items-start sm:items-center gap-2">
+              <div>
+                <h4 class="font-serif text-xl sm:text-2xl font-black text-white">
+                  Simulation Before Decision (先模擬，再決策)
+                </h4>
+                <p class="text-xs text-slate-300 font-sans">
+                  電通結合全台 5,045 份 CCS 調查大數據微調模型，與真人回測相關係數達 <strong class="text-laserLime">r = 0.89</strong>。
+                </p>
+              </div>
+
+              <!-- Persona Toggles -->
+              <div class="inline-flex rounded-lg p-1 bg-cyberDark border border-slate-700 font-mono text-xs">
+                <button onclick="setLivePersona('lisa')" id="persona-btn-lisa" class="px-3 py-1 bg-neonCyan text-slate-950 font-black rounded transition">
+                  Lisa (25歲)
+                </button>
+                <button onclick="setLivePersona('cindy')" id="persona-btn-cindy" class="px-3 py-1 text-slate-400 hover:text-white rounded transition">
+                  Cindy (35歲)
+                </button>
+              </div>
+            </div>
+
+            <!-- Interactive Simulation Box -->
+            <div id="persona-display-box" class="bg-cyberDark/90 border border-cyan-500/40 p-4 rounded-xl text-xs font-mono space-y-2">
+              <div class="flex items-center justify-between text-neonCyan font-bold">
+                <span id="persona-role-label">AI PERSONA: LISA // 25-34歲 台北上班族</span>
+                <span class="text-laserLime">SIMULATION READY</span>
+              </div>
+              <div class="text-slate-300 font-sans leading-relaxed" id="persona-quote">
+                「買藍牙耳機先算 CP 值！續航有沒有 20 小時？網紅開箱說爛音質就直接 pass，花小錢買到雷貨最賭爛。」
+              </div>
+              <div class="flex items-center gap-3 pt-2 border-t border-slate-800 text-[11px] text-slate-400">
+                <span>決策防禦機制：<strong id="persona-defense" class="text-white">體驗探索型、注重網紅開箱與聲量</strong></span>
+              </div>
+            </div>
+          </div>
+
+          <div class="text-[11px] font-mono text-slate-400 border-t border-slate-800 pt-2 flex justify-between">
+            <span>出處：《決策智慧 2026》P.96-105 ｜ 核心：多 Agent 協同架構</span>
+            <span>頁碼：05 (完)</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- Quick Thumbnail Jumpers -->
+      <div class="flex items-center justify-center gap-2 mt-5 pt-3 border-t border-slate-800 overflow-x-auto">
+        <button onclick="goToPage(1)" class="thumb-btn text-xs font-mono font-bold px-3 py-1 border border-neonCyan bg-neonCyan text-slate-950 rounded">01 封面</button>
+        <button onclick="goToPage(2)" class="thumb-btn text-xs font-mono font-bold px-3 py-1 border border-slate-700 bg-cyberDark text-slate-300 hover:border-slate-500 rounded">02 彩虹雲</button>
+        <button onclick="goToPage(3)" class="thumb-btn text-xs font-mono font-bold px-3 py-1 border border-slate-700 bg-cyberDark text-slate-300 hover:border-slate-500 rounded">03 偏心論</button>
+        <button onclick="goToPage(4)" class="thumb-btn text-xs font-mono font-bold px-3 py-1 border border-slate-700 bg-cyberDark text-slate-300 hover:border-slate-500 rounded">04 注意力</button>
+        <button onclick="goToPage(5)" class="thumb-btn text-xs font-mono font-bold px-3 py-1 border border-slate-700 bg-cyberDark text-slate-300 hover:border-slate-500 rounded">05 People Model</button>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================================================ -->
+  <!-- FEATURE 2: 9-YEAR PROPHECY QUANTUM TIMELINE (2018-2025)      -->
+  <!-- ============================================================ -->
+  <section id="timeline-section" class="py-14 px-4 max-w-5xl mx-auto border-t border-cyan-900/60">
+    <div class="text-center max-w-xl mx-auto mb-10">
+      <div class="inline-block bg-orange-950 border border-neonOrange text-neonOrange px-3 py-0.5 text-xs font-mono font-bold uppercase rounded shadow-neon-orange mb-2">
+        PROPHECY VERIFICATION MATRIX
+      </div>
+      <h3 class="font-serif text-2xl sm:text-4xl font-black text-white">
+        9 年神預言量子時光隧道
+      </h3>
+      <p class="text-xs sm:text-sm text-slate-400 mt-2 font-sans">
+        2026 的終局之戰不是憑空出現的！回顧電通九年專刊，如何一步步預告今天的行銷現實：
+      </p>
+    </div>
+
+    <!-- Timeline Cards Grid -->
+    <div class="grid grid-cols-1 md:grid-cols-3 gap-4 font-sans text-xs">
+      <!-- 2018 -->
+      <div class="bg-cyberPanel border border-slate-700 hover:border-neonCyan p-4 rounded-xl shadow-cyber-glass space-y-2 transition">
+        <div class="flex justify-between items-center font-mono">
+          <span class="text-neonCyan font-bold text-sm">2018《智慧的轉變》</span>
+          <span class="text-[10px] px-1.5 py-0.5 bg-emerald-950 text-laserLime rounded">命中率 95%</span>
+        </div>
+        <div class="font-serif font-black text-white text-sm">「未來沒有結案報告，消費者是野孩子！」</div>
+        <p class="text-slate-400 leading-relaxed">
+          翁偉智預言行銷漏斗崩潰，動態行為追蹤將取代月報表。對照今日 TikTok / Shorts 瞬息跳走的一秒世代完全封神！
+        </p>
+      </div>
+
+      <!-- 2019 -->
+      <div class="bg-cyberPanel border border-slate-700 hover:border-neonCyan p-4 rounded-xl shadow-cyber-glass space-y-2 transition">
+        <div class="flex justify-between items-center font-mono">
+          <span class="text-neonCyan font-bold text-sm">2019《轉型的狂潮》</span>
+          <span class="text-[10px] px-1.5 py-0.5 bg-emerald-950 text-laserLime rounded">命中率 90%</span>
+        </div>
+        <div class="font-serif font-black text-white text-sm">「第三方 Cookie 之死與代理商轉型」</div>
+        <p class="text-slate-400 leading-relaxed">
+          安納特團隊首度預警 Chrome 停用 Cookie 衝擊；牛恆泰直言品牌自建 In-house 團隊，代理商若不升級成商業顧問將無立足之地。
+        </p>
+      </div>
+
+      <!-- 2020 -->
+      <div class="bg-cyberPanel border border-slate-700 hover:border-neonCyan p-4 rounded-xl shadow-cyber-glass space-y-2 transition">
+        <div class="flex justify-between items-center font-mono">
+          <span class="text-neonCyan font-bold text-sm">2020《驅動商業成效》</span>
+          <span class="text-[10px] px-1.5 py-0.5 bg-emerald-950 text-laserLime rounded">命中率 96%</span>
+        </div>
+        <div class="font-serif font-black text-white text-sm">「後疫情時代：家成為唯一全功能核心」</div>
+        <p class="text-slate-400 leading-relaxed">
+          蔡秀麗預言 Home Commerce 居家商務爆發，外送、雲端辦公與居家健身重塑台灣生活型態。
+        </p>
+      </div>
+
+      <!-- 2021 -->
+      <div class="bg-cyberPanel border border-slate-700 hover:border-neonCyan p-4 rounded-xl shadow-cyber-glass space-y-2 transition">
+        <div class="flex justify-between items-center font-mono">
+          <span class="text-neonCyan font-bold text-sm">2021《穿越 2030》</span>
+          <span class="text-[10px] px-1.5 py-0.5 bg-emerald-950 text-laserLime rounded">命中率 94%</span>
+        </div>
+        <div class="font-serif font-black text-white text-sm">「萬花筒身分識別：別再用年齡性別分群」</div>
+        <p class="text-slate-400 leading-relaxed">
+          陳怡潔指出傳統 Persona 瓦解，Z 世代看重「價值觀與社會共鳴」，信義房屋《信任幸福》奪下坎城全場大獎。
+        </p>
+      </div>
+
+      <!-- 2022 -->
+      <div class="bg-cyberPanel border border-slate-700 hover:border-neonOrange p-4 rounded-xl shadow-cyber-glass space-y-2 transition">
+        <div class="flex justify-between items-center font-mono">
+          <span class="text-neonOrange font-bold text-sm">2022《複合躍進》</span>
+          <span class="text-[10px] px-1.5 py-0.5 bg-orange-950 text-neonOrange rounded">深度反思 45%</span>
+        </div>
+        <div class="font-serif font-black text-white text-sm">「Web3 與元宇宙：百倍商機的狂熱」</div>
+        <p class="text-slate-400 leading-relaxed">
+          葛如鈞（寶博士）探討數位資產化；泡沫褪去後，虛實整合 (Phygital) 沉澱為今日空間運算與 Apple Vision Pro 的土壤。
+        </p>
+      </div>
+
+      <!-- 2023-2025 -->
+      <div class="bg-cyberPanel border border-slate-700 hover:border-laserLime p-4 rounded-xl shadow-cyber-glass space-y-2 transition">
+        <div class="flex justify-between items-center font-mono">
+          <span class="text-laserLime font-bold text-sm">2023-2025《智慧演算法》</span>
+          <span class="text-[10px] px-1.5 py-0.5 bg-emerald-950 text-laserLime rounded">命中率 92%</span>
+        </div>
+        <div class="font-serif font-black text-white text-sm">「電智力 AIQ 變形記與圍牆花園」</div>
+        <p class="text-slate-400 leading-relaxed">
+          從提示工程到 A2A 代理人對話，李昆謀剖析圍牆花園壟斷，品牌唯有靠 RMN 3.0 與 D2C 自有數據突圍！
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================================================ -->
+  <!-- FEATURE 3: 5-TIER SURVIVAL ASSESSMENT (5 CYBER SVG BADGES)   -->
+  <!-- ============================================================ -->
+  <section id="quiz-section" class="py-14 px-4 max-w-4xl mx-auto border-t border-cyan-900/60">
+    <div class="text-center max-w-xl mx-auto mb-8">
+      <span class="text-xs font-mono font-bold bg-neonOrange text-slate-950 px-3 py-0.5 rounded shadow-neon-orange">
+        NEURAL ASSESSMENT
+      </span>
+      <h3 class="font-serif text-2xl sm:text-4xl font-black text-white mt-3">
+        行銷大師 2026 生存段位檢定
+      </h3>
+      <p class="text-xs sm:text-sm text-slate-400 mt-1.5 font-sans">
+        5 道實戰神經情境題，測出你具備「菜鳥小跟班」還是「通透行銷大師」段位！
+      </p>
+    </div>
+
+    <div class="bg-cyberCard border-2 border-cyan-500/30 rounded-2xl p-6 sm:p-9 shadow-hologram">
+      <!-- Step Indicator -->
+      <div id="quiz-progress-wrapper" class="mb-6 font-mono">
+        <div class="flex justify-between items-center text-xs font-bold text-slate-300 mb-1.5">
+          <span id="quiz-step-title" class="text-neonCyan">QUESTION 1 / 5</span>
+          <span id="quiz-live-points" class="text-neonOrange">神經突觸連線中...</span>
+        </div>
+        <div class="w-full bg-cyberDark border border-slate-700 h-2 rounded-full overflow-hidden p-0.5">
+          <div id="quiz-bar-fill" class="bg-gradient-to-r from-neonCyan to-laserLime h-full rounded-full transition-all duration-300 w-1/5"></div>
+        </div>
+      </div>
+
+      <!-- Question Cards Stack -->
+      <div id="quiz-card-stack" class="space-y-6">
+        <!-- Q1 -->
+        <div class="quiz-item" data-q="1">
+          <div class="text-[11px] font-mono font-bold text-neonOrange mb-1">【01 真實力量】</div>
+          <h4 class="font-serif text-base sm:text-lg font-black text-white mb-4 leading-snug">
+            2026 年生成式內容氾濫，連真實彩虹雲都被質疑是 AI 假圖。面對大眾的「生成疲勞」，品牌最高明的做法是？
+          </h4>
+          <div class="space-y-3 text-xs sm:text-sm font-sans">
+            <button onclick="handleQuizAnswer(1, 2)" class="w-full text-left p-3.5 bg-cyberPanel border border-slate-700 hover:border-neonCyan text-slate-200 rounded-xl transition flex justify-between items-center group">
+              <span>A. 趁 AI 便宜，一天生成 100 支短影音用海量資訊洗版社群。</span>
+              <span class="font-mono text-xs opacity-0 group-hover:opacity-100 text-neonCyan font-bold">選此 ➔</span>
+            </button>
+            <button onclick="handleQuizAnswer(1, 4)" class="w-full text-left p-3.5 bg-cyberPanel border border-slate-700 hover:border-neonCyan text-slate-200 rounded-xl transition flex justify-between items-center group">
+              <span>B. 全面停止線上行銷，回歸實體發傳單。</span>
+              <span class="font-mono text-xs opacity-0 group-hover:opacity-100 text-neonCyan font-bold">選此 ➔</span>
+            </button>
+            <button onclick="handleQuizAnswer(1, 6)" class="w-full text-left p-3.5 bg-cyberPanel border border-slate-700 hover:border-neonCyan text-slate-200 rounded-xl transition flex justify-between items-center group">
+              <span>C. 擁抱真實瑕疵與不完美，在創作中保留真實生命經驗與共鳴。</span>
+              <span class="font-mono text-xs opacity-0 group-hover:opacity-100 text-neonCyan font-bold">選此 ➔</span>
+            </button>
+          </div>
+        </div>
+
+        <!-- Q2 -->
+        <div class="quiz-item hidden" data-q="2">
+          <div class="text-[11px] font-mono font-bold text-neonOrange mb-1">【02 決策截胡】</div>
+          <h4 class="font-serif text-base sm:text-lg font-black text-white mb-4 leading-snug">
+            消費者買東西只丟一句話給 AI Agent 自動比價下單。面對傳統漏斗被攔截，品牌能保護毛利的護城河是？
+          </h4>
+          <div class="space-y-3 text-xs sm:text-sm font-sans">
+            <button onclick="handleQuizAnswer(2, 6)" class="w-full text-left p-3.5 bg-cyberPanel border border-slate-700 hover:border-neonCyan text-slate-200 rounded-xl transition flex justify-between items-center group">
+              <span>A. 創造「不可替代的情緒價值與偏心」：在 AI 介入前就讓品牌成為消費者的強烈渴望。</span>
+              <span class="font-mono text-xs opacity-0 group-hover:opacity-100 text-neonCyan font-bold">選此 ➔</span>
+            </button>
+            <button onclick="handleQuizAnswer(2, 2)" class="w-full text-left p-3.5 bg-cyberPanel border border-slate-700 hover:border-neonCyan text-slate-200 rounded-xl transition flex justify-between items-center group">
+              <span>B. 瘋狂殺價到全網最低，保證被比價演算法排第一位。</span>
+              <span class="font-mono text-xs opacity-0 group-hover:opacity-100 text-neonCyan font-bold">選此 ➔</span>
+            </button>
+            <button onclick="handleQuizAnswer(2, 3)" class="w-full text-left p-3.5 bg-cyberPanel border border-slate-700 hover:border-neonCyan text-slate-200 rounded-xl transition flex justify-between items-center group">
+              <span>C. 在官網塞入大量隱藏 SEO 關鍵字試圖欺騙爬蟲。</span>
+              <span class="font-mono text-xs opacity-0 group-hover:opacity-100 text-neonCyan font-bold">選此 ➔</span>
+            </button>
+          </div>
+        </div>
+
+        <!-- Q3 -->
+        <div class="quiz-item hidden" data-q="3">
+          <div class="text-[11px] font-mono font-bold text-neonOrange mb-1">【03 告別末日循環】</div>
+          <h4 class="font-serif text-base sm:text-lg font-black text-white mb-4 leading-snug">
+            貝立德徐莉媛踢爆了廣告末日循環 (Doom Loop)：低價曝光越多，消費者記憶度反而越低。走出此泥淖的核心是？
+          </h4>
+          <div class="space-y-3 text-xs sm:text-sm font-sans">
+            <button onclick="handleQuizAnswer(3, 2)" class="w-full text-left p-3.5 bg-cyberPanel border border-slate-700 hover:border-neonCyan text-slate-200 rounded-xl transition flex justify-between items-center group">
+              <span>A. 把全部預算拿去買不可略過的強制播放廣告。</span>
+              <span class="font-mono text-xs opacity-0 group-hover:opacity-100 text-neonCyan font-bold">選此 ➔</span>
+            </button>
+            <button onclick="handleQuizAnswer(3, 6)" class="w-full text-left p-3.5 bg-cyberPanel border border-slate-700 hover:border-neonCyan text-slate-200 rounded-xl transition flex justify-between items-center group">
+              <span>B. 從買曝光轉向「買注意力品質 (APM)」：研究證明自願觀看高出 79% 記憶，把媒體做成體驗！</span>
+              <span class="font-mono text-xs opacity-0 group-hover:opacity-100 text-neonCyan font-bold">選此 ➔</span>
+            </button>
+            <button onclick="handleQuizAnswer(3, 3)" class="w-full text-left p-3.5 bg-cyberPanel border border-slate-700 hover:border-neonCyan text-slate-200 rounded-xl transition flex justify-between items-center group">
+              <span>C. 報表只呈現點擊次數，略過所有品牌記憶與轉換指標。</span>
+              <span class="font-mono text-xs opacity-0 group-hover:opacity-100 text-neonCyan font-bold">選此 ➔</span>
+            </button>
+          </div>
+        </div>
+
+        <!-- Q4 -->
+        <div class="quiz-item hidden" data-q="4">
+          <div class="text-[11px] font-mono font-bold text-neonOrange mb-1">【04 決策模擬】</div>
+          <h4 class="font-serif text-base sm:text-lg font-black text-white mb-4 leading-snug">
+            電通 People Model 整合 5,000+ 樣本微調出吻合度 0.89 的虛擬受眾。行銷團隊該如何善用這項工具？
+          </h4>
+          <div class="space-y-3 text-xs sm:text-sm font-sans">
+            <button onclick="handleQuizAnswer(4, 6)" class="w-full text-left p-3.5 bg-cyberPanel border border-slate-700 hover:border-neonCyan text-slate-200 rounded-xl transition flex justify-between items-center group">
+              <span>A. 落實「先模擬再決策 (Simulation Before Decision)」：在真金白銀投放前先試錯，優化切角。</span>
+              <span class="font-mono text-xs opacity-0 group-hover:opacity-100 text-neonCyan font-bold">選此 ➔</span>
+            </button>
+            <button onclick="handleQuizAnswer(4, 2)" class="w-full text-left p-3.5 bg-cyberPanel border border-slate-700 hover:border-neonCyan text-slate-200 rounded-xl transition flex justify-between items-center group">
+              <span>B. 開除所有企劃人員，把整個行銷策略直接 100% 交由模型自主發布。</span>
+              <span class="font-mono text-xs opacity-0 group-hover:opacity-100 text-neonCyan font-bold">選此 ➔</span>
+            </button>
+            <button onclick="handleQuizAnswer(4, 3)" class="w-full text-left p-3.5 bg-cyberPanel border border-slate-700 hover:border-neonCyan text-slate-200 rounded-xl transition flex justify-between items-center group">
+              <span>C. 完全不相信數據模型，依然只憑老闆個人昨晚的夢境做決策。</span>
+              <span class="font-mono text-xs opacity-0 group-hover:opacity-100 text-neonCyan font-bold">選此 ➔</span>
+            </button>
+          </div>
+        </div>
+
+        <!-- Q5 -->
+        <div class="quiz-item hidden" data-q="5">
+          <div class="text-[11px] font-mono font-bold text-neonOrange mb-1">【05 人類價值】</div>
+          <h4 class="font-serif text-base sm:text-lg font-black text-white mb-4 leading-snug">
+            凱絡強義明總監指出，在 AI 普及的演算法世代，行銷人最稀缺、最昂貴的競爭力是什麼？
+          </h4>
+          <div class="space-y-3 text-xs sm:text-sm font-sans">
+            <button onclick="handleQuizAnswer(5, 6)" class="w-full text-left p-3.5 bg-cyberPanel border border-slate-700 hover:border-neonCyan text-slate-200 rounded-xl transition flex justify-between items-center group">
+              <span>A. 「衡斷力 (Judgment)」：AI 只能生成但無法為商業結果負責，人類對商業脈絡與倫理的判斷才是關鍵。</span>
+              <span class="font-mono text-xs opacity-0 group-hover:opacity-100 text-neonCyan font-bold">選此 ➔</span>
+            </button>
+            <button onclick="handleQuizAnswer(5, 3)" class="w-full text-left p-3.5 bg-cyberPanel border border-slate-700 hover:border-neonCyan text-slate-200 rounded-xl transition flex justify-between items-center group">
+              <span>B. 盲目背誦 1,000 個最新的 AI 提示詞模板。</span>
+              <span class="font-mono text-xs opacity-0 group-hover:opacity-100 text-neonCyan font-bold">選此 ➔</span>
+            </button>
+            <button onclick="handleQuizAnswer(5, 2)" class="w-full text-left p-3.5 bg-cyberPanel border border-slate-700 hover:border-neonCyan text-slate-200 rounded-xl transition flex justify-between items-center group">
+              <span>C. 每天加班產出更多的 PPT 簡報頁數。</span>
+              <span class="font-mono text-xs opacity-0 group-hover:opacity-100 text-neonCyan font-bold">選此 ➔</span>
+            </button>
+          </div>
+        </div>
+      </div>
+
+      <!-- Result Terminal Card -->
+      <div id="quiz-result-view" class="hidden space-y-6">
+        <div class="bg-cyberDark border-2 border-neonCyan p-6 sm:p-8 rounded-2xl shadow-neon-cyan">
+          <div class="flex flex-col sm:flex-row sm:items-center justify-between border-b border-cyan-900/80 pb-4 mb-6 gap-2">
+            <div>
+              <span class="text-[10px] font-mono font-bold tracking-widest text-neonOrange uppercase">2026 DENTSU DECISION WISDOM CERTIFIED</span>
+              <h5 class="text-xl sm:text-2xl font-serif font-black text-white">行銷大師段位神經認證</h5>
+            </div>
+            <div id="quiz-final-score-pill" class="bg-cyan-950 border border-neonCyan text-neonCyan px-3 py-1 font-mono font-bold text-xs rounded-lg self-start sm:self-auto">
+              SCORE: 30 / 30
+            </div>
+          </div>
+
+          <div class="grid grid-cols-1 md:grid-cols-12 gap-6 items-center mb-6">
+            <div class="md:col-span-4 flex flex-col items-center justify-center p-4 bg-cyberPanel border border-cyan-500/40 rounded-xl shadow-cyber-glass text-center">
+              <div id="quiz-badge-svg" class="w-20 h-20 flex items-center justify-center mb-2"></div>
+              <span id="quiz-badge-title" class="text-xs font-black font-mono tracking-wider text-neonCyan"></span>
+              <span id="quiz-badge-tier" class="text-[10px] text-slate-400 font-mono font-bold"></span>
+            </div>
+
+            <div class="md:col-span-8 space-y-3 font-sans">
+              <div>
+                <span class="text-xs text-slate-400 font-mono">核定段位：</span>
+                <div id="quiz-rank-name" class="text-lg sm:text-xl font-serif font-black text-neonCyan bg-cyan-950/80 border border-neonCyan/30 inline-block px-2.5 py-0.5 rounded mt-0.5"></div>
+              </div>
+              <p id="quiz-rank-description" class="text-xs sm:text-sm text-slate-200 leading-relaxed font-medium"></p>
+              <div class="bg-cyberPanel border border-dashed border-cyan-700/60 p-3.5 rounded-lg text-xs font-mono space-y-1">
+                <span class="font-bold text-neonOrange flex items-center gap-1">
+                  <i data-lucide="compass" class="w-3.5 h-3.5"></i> 【2026 避坑生存便箋】
+                </span>
+                <div id="quiz-rank-memo" class="text-slate-300 text-[11px] sm:text-xs leading-relaxed font-sans"></div>
+              </div>
+            </div>
+          </div>
+
+          <div class="border-t border-dashed border-cyan-900/60 pt-3 flex flex-wrap items-center justify-between text-[11px] font-mono text-slate-400">
+            <span>認證發行：電通集團《決策智慧》2026 編輯委員會</span>
+            <span class="text-laserLime font-bold">SYSTEM INTEGRITY: VERIFIED</span>
+          </div>
+        </div>
+
+        <div class="flex flex-wrap items-center justify-between gap-3 font-mono">
+          <button id="btn-copy-certificate" class="bg-neonOrange hover:bg-orange-500 text-slate-950 font-black text-xs sm:text-sm px-5 py-3 border border-orange-400 shadow-neon-orange transition flex items-center gap-2 rounded">
+            <i data-lucide="copy" class="w-4 h-4"></i>
+            <span>一鍵複製認證結果與開掛便箋</span>
+          </button>
+          <button onclick="resetAssessment()" class="text-xs sm:text-sm font-bold text-slate-400 underline hover:text-neonCyan flex items-center gap-1 transition">
+            <i data-lucide="rotate-ccw" class="w-3.5 h-3.5"></i>
+            <span>重新連線檢定</span>
+          </button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================================================ -->
+  <!-- FEATURE 4: 2026 CHRONOS AI CYBER CONSOLE                     -->
+  <!-- ============================================================ -->
+  <section class="py-12 px-4 max-w-4xl mx-auto border-t border-cyan-900/60">
+    <div class="text-center max-w-xl mx-auto mb-6">
+      <div class="inline-block bg-cyan-950 border border-neonCyan text-neonCyan px-2.5 py-0.5 text-xs font-mono font-bold uppercase shadow-neon-cyan">
+        CHRONOS NEURAL CONSOLE
+      </div>
+      <h3 class="font-serif text-2xl font-black text-white mt-2">
+        2026 決策智腦終端
+      </h3>
+      <p class="text-xs text-slate-400 mt-1 font-sans">
+        直接向通曉 2018-2026 專刊全書的神經中樞發問，獲取科技視角的開掛指引。
+      </p>
+    </div>
+
+    <div class="bg-cyberCard border border-cyan-500/30 rounded-2xl overflow-hidden shadow-cyber-glass">
+      <!-- Quick Chips -->
+      <div class="bg-cyberPanel p-3 border-b border-cyan-900/60 flex items-center gap-2 overflow-x-auto text-xs font-mono">
+        <span class="text-slate-400 shrink-0 flex items-center gap-1">
+          <i data-lucide="terminal" class="w-3.5 h-3.5 text-neonCyan"></i> 快速注入：
+        </span>
+        <button class="agent-chip bg-cyberDark hover:bg-cyan-950 border border-cyan-900/80 text-slate-300 hover:text-neonCyan px-3 py-1 rounded-full shrink-0 font-medium transition">
+          大家都在用 AI 幫忙比價，小品牌該如何活下去？
+        </button>
+        <button class="agent-chip bg-cyberDark hover:bg-cyan-950 border border-cyan-900/80 text-slate-300 hover:text-neonCyan px-3 py-1 rounded-full shrink-0 font-medium transition">
+          數位廣告可視率很高，但客戶總說沒感覺怎麼辦？
+        </button>
+        <button class="agent-chip bg-cyberDark hover:bg-cyan-950 border border-cyan-900/80 text-slate-300 hover:text-neonCyan px-3 py-1 rounded-full shrink-0 font-medium transition">
+          生成式內容太多被罵 AI Slop，該如何維持真實？
+        </button>
+      </div>
+
+      <!-- Dialogue History -->
+      <div id="agent-chat-feed" class="p-4 max-h-72 overflow-y-auto space-y-3 bg-cyberDark/60 text-xs sm:text-sm font-sans">
+        <div class="flex items-start gap-2.5">
+          <div class="w-7 h-7 rounded bg-cyan-950 border border-neonCyan text-neonCyan flex items-center justify-center font-mono font-bold text-xs shrink-0 shadow-neon-cyan">
+            AI
+          </div>
+          <div class="bg-cyberPanel border border-cyan-900/70 p-3 rounded-xl rounded-tl-none text-slate-200 leading-relaxed">
+            我是 2026 決策神經終端。在演算法截胡與 AI 代理人接管商業的時代，任何關於真實性、偏心與受眾模擬的難題，隨時開口。
+          </div>
+        </div>
+      </div>
+
+      <!-- Input box -->
+      <form id="agent-input-form" class="p-3 bg-cyberCard border-t border-cyan-900/60 flex items-center gap-2">
+        <input 
+          type="text" 
+          id="agent-user-query" 
+          placeholder="輸入行銷困惑（例如：老闆想把社群預算全拿去買關鍵字...）" 
+          class="flex-1 bg-cyberDark border border-slate-700 focus:border-neonCyan px-3.5 py-2 text-xs sm:text-sm text-slate-100 focus:outline-none rounded font-sans"
+          autocomplete="off"
+        />
+  <!-- MODAL: FULL GATEFOLD PANORAMIC COVER VIEW -->
+  <div id="cover-modal" class="hidden fixed inset-0 z-50 bg-black/90 backdrop-blur-md flex items-center justify-center p-3 sm:p-6" onclick="toggleCoverFull()">
+    <div class="relative max-w-5xl w-full border border-neonCyan/60 shadow-[0_0_50px_rgba(0,240,255,0.3)] rounded-xl overflow-hidden bg-cyberDark" onclick="event.stopPropagation()">
+      <div class="flex justify-between items-center bg-cyberPanel px-4 py-3 border-b border-cyan-900/70 text-xs font-mono text-slate-200">
+        <div class="flex items-center gap-2">
+          <span class="w-2 h-2 rounded-full bg-neonCyan"></span>
+          <span class="font-bold text-neonCyan">DECISION WISDOM 2026 · PHYSICAL GATEFOLD WRAP (封面/書脊/封底全景)</span>
+        </div>
+        <button onclick="toggleCoverFull()" class="p-1 text-slate-400 hover:text-white rounded hover:bg-slate-800 transition">
+          <i data-lucide="x" class="w-4 h-4"></i>
+        </button>
+      </div>
+      <div class="p-3 sm:p-5 bg-[#cbb89e] flex flex-col items-center justify-center overflow-auto max-h-[82vh]">
+        <img 
+          src="封面示意.jpg" 
+          alt="決策智慧 2026 展開封面全景" 
+          class="w-full h-auto max-h-[75vh] object-contain shadow-2xl rounded"
+          onerror="this.src='https://placehold.co/1000x600/cbb89e/18181b?text=2026+PHYSICAL+GATEFOLD+COVER+WRAP'"
+        />
+      </div>
+      <div class="bg-cyberDark px-4 py-2.5 border-t border-cyan-900/70 flex flex-wrap justify-between items-center text-[11px] font-mono text-slate-400">
+        <span>再生牛皮紙材質 × 鏤空「2026」× 燙印幻彩「決策智慧」</span>
+        <span class="text-neonCyan font-bold">dentsu 2026 旗艦刊物實體設計</span>
+      </div>
+    </div>
+  </div>
+
+  <!-- JavaScript Logics -->
+  <script>
+    // 0. Toggle Gatefold Full Cover Modal
+    function toggleCoverFull() {
+      const modal = document.getElementById('cover-modal');
+      modal.classList.toggle('hidden');
+    }
+
+    // 1. Reading Progress Bar
+    window.addEventListener('scroll', () => {
+      const winScroll = document.documentElement.scrollTop || document.body.scrollTop;
+      const height = document.documentElement.scrollHeight - document.documentElement.clientHeight;
+      const scrolled = (winScroll / height) * 100;
+      document.getElementById('scroll-progress-bar').style.width = scrolled + '%';
+    });
+
+    // 2. Interactive Magazine Viewer
+    let currentPage = 1;
+    const totalPages = 5;
+
+    function updateMagazineView() {
+      document.querySelectorAll('.mag-page').forEach(page => {
+        const pageNum = parseInt(page.getAttribute('data-page'));
+        if (pageNum === currentPage) {
+          page.classList.remove('inactive');
+          page.classList.add('active');
+        } else {
+          page.classList.remove('active');
+          page.classList.add('inactive');
+        }
+      });
+
+      document.getElementById('page-indicator').textContent = `SPREAD ${currentPage} / ${totalPages}`;
+
+      // Update thumbnail active state
+      document.querySelectorAll('.thumb-btn').forEach((btn, idx) => {
+        if (idx + 1 === currentPage) {
+          btn.className = 'thumb-btn text-xs font-mono font-bold px-3 py-1 border border-neonCyan bg-neonCyan text-slate-950 rounded';
+        } else {
+          btn.className = 'thumb-btn text-xs font-mono font-bold px-3 py-1 border border-slate-700 bg-cyberDark text-slate-300 hover:border-slate-500 rounded';
+        }
+      });
+    }
+
+    function goToPage(page) {
+      currentPage = page;
+      updateMagazineView();
+    }
+
+    document.getElementById('btn-prev-page').addEventListener('click', () => {
+      if (currentPage > 1) {
+        currentPage--;
+        updateMagazineView();
+      }
+    });
+
+    document.getElementById('btn-next-page').addEventListener('click', () => {
+      if (currentPage < totalPages) {
+        currentPage++;
+        updateMagazineView();
+      }
+    });
+
+    // 3. Live Persona Toggles inside Page 5
+    const personaData = {
+      lisa: {
+        label: "AI PERSONA: LISA // 25-34歲 台北上班族",
+        quote: "「買藍牙耳機先算 CP 值！續航有沒有 20 小時？網紅開箱說爛音質就直接 pass，花小錢買到雷貨最賭爛。」",
+        defense: "體驗探索型、注重網紅開箱與社群聲量",
+      },
+      cindy: {
+        label: "AI PERSONA: CINDY // 35-44歲 台北中階主管",
+        quote: "「手機電池到底能不能撐一整天？出門在外沒電很麻煩。代言人再大咖也沒用，安全耐用、售後保固跟親友真實推薦才是我刷卡的關鍵。」",
+        defense: "避險導向型、極度看重品牌長期信譽與實體體驗",
+      }
+    };
+
+    function setLivePersona(type) {
+      const p = personaData[type];
+      document.getElementById('persona-role-label').textContent = p.label;
+      document.getElementById('persona-quote').textContent = p.quote;
+      document.getElementById('persona-defense').textContent = p.defense;
+
+      if (type === 'lisa') {
+        document.getElementById('persona-btn-lisa').className = "px-3 py-1 bg-neonCyan text-slate-950 font-black rounded transition";
+        document.getElementById('persona-btn-cindy').className = "px-3 py-1 text-slate-400 hover:text-white rounded transition";
+      } else {
+        document.getElementById('persona-btn-cindy').className = "px-3 py-1 bg-neonCyan text-slate-950 font-black rounded transition";
+        document.getElementById('persona-btn-lisa').className = "px-3 py-1 text-slate-400 hover:text-white rounded transition";
+      }
+    }
+
+    // 4. Consultation Desk Logic
+    const agentConsultAnswers = [
+      {
+        keys: ['比價', '小品牌', '活下去', '便宜'],
+        answer: '<strong>【2026 神經智腦解析】</strong><br>陳蒔在《決策智慧》第 51 頁強調：<strong>「AI 解決的是需求，品牌創造的是渴望」</strong>。小品牌千萬別跟大廠打價格戰！AI 會自動比價，但消費者會指定購買「有特定記憶點」的品牌。將精力放在打造忠誠鐵粉的社群儀式感上，讓 AI 只能乖乖聽消費者的偏心指令下單。'
+      },
+      {
+        keys: ['可視率', '沒感覺', '廣告', '客戶'],
+        answer: '<strong>【2026 神經智腦解析】</strong><br>徐莉媛副總經理警示：你的廣告已掉入<strong>「廣告末日循環 (The Doom Loop)」</strong>！可視率只是門票，注意力 (APM) 才是資產。自願觀看超過 10 秒的記憶率高出 79%。建議將被動 Banner 轉換為真實線下體驗，讓消費者主動選擇注視！'
+      },
+      {
+        keys: ['slop', '真實', '疲勞', '生成'],
+        answer: '<strong>【2026 神經智腦解析】</strong><br>周麗君首席創意長指出：在 AI 生成氾濫的時代，<strong>「完美已經貶值，真實瑕疵才是奢侈品」</strong>！別再一鍵生成毫無靈魂的假人和罐頭文案。把創作過程的幕後花絮、真實用戶的原始聲音、甚至是團隊試錯的真實故事呈現出來，才能穿透大眾的 AI 疲勞！'
+      }
+    ];
+
+    document.querySelectorAll('.agent-chip').forEach(chip => {
+      chip.addEventListener('click', () => {
+        document.getElementById('agent-user-query').value = chip.innerText.trim();
+        document.getElementById('agent-input-form').dispatchEvent(new Event('submit'));
+      });
+    });
+
+    document.getElementById('agent-input-form').addEventListener('submit', (e) => {
+      e.preventDefault();
+      const input = document.getElementById('agent-user-query');
+      const val = input.value.trim();
+      if (!val) return;
+
+      appendConsultMsg('user', val);
+      input.value = '';
+
+      setTimeout(() => {
+        const lower = val.toLowerCase();
+        const matched = agentConsultAnswers.find(item => item.keys.some(k => lower.includes(k)));
+        const reply = matched ? matched.answer : '<strong>【2026 神經智腦解析】</strong><br>回歸 2026《決策智慧》的核心宗旨：<strong>「當品牌離 AI 越近，更要離人越近」</strong>。善用 People Model 先模擬試錯，但在執行時務必賦予品牌溫暖的人性判斷力（Judgment）！';
+        appendConsultMsg('bot', reply);
+      }, 400);
+    });
+
+    function appendConsultMsg(sender, text) {
+      const feed = document.getElementById('agent-chat-feed');
+      const div = document.createElement('div');
+      div.className = `flex items-start gap-2.5 ${sender === 'user' ? 'flex-row-reverse text-right' : ''}`;
+      const avatar = sender === 'user' 
+        ? `<div class="w-6 h-6 rounded bg-slate-700 text-slate-200 font-mono flex items-center justify-center font-bold text-[10px] shrink-0">YOU</div>`
+        : `<div class="w-6 h-6 rounded bg-cyan-950 border border-neonCyan text-neonCyan font-mono flex items-center justify-center font-bold text-[10px] shrink-0">AI</div>`;
+      
+      div.innerHTML = `
+        ${avatar}
+        <div class="max-w-md ${sender === 'user' ? 'bg-cyan-950/80 border border-neonCyan text-slate-100' : 'bg-cyberPanel border border-slate-700 text-slate-200'} p-3 rounded-xl ${sender === 'user' ? 'rounded-tr-none' : 'rounded-tl-none'} shadow-sm leading-relaxed text-xs">
+          ${text}
+        </div>
+      `;
+      feed.appendChild(div);
+      feed.scrollTop = feed.scrollHeight;
+    }
+
+    // 5. Five-Rank Assessment System
+    const assessmentRanks = [
+      {
+        tier: 1,
+        range: [0, 10],
+        title: "【菜鳥小跟班·被演算法玩弄的數位盲盒】",
+        badgeTitle: "實習生黃色警示章",
+        badgeTier: "TIER 1 · ROOKIE",
+        desc: "危險！你的思維還停留在上個世代的「電視廣告大撒幣」或「盲目買便宜曝光」的循環中。在 2026 年，如果只看表面可視率，你的品牌很快會被 AI 比價演算法無情淹沒。",
+        memo: "速讀 2026《決策智慧》第 1 章：明白完美已經廉價，開始重視真人的情緒連結與偏心！",
+        svg: `<svg class="w-16 h-16" viewBox="0 0 100 100" fill="none"><polygon points="50,8 92,85 8,85" fill="#FEF08A" stroke="#18181B" stroke-width="4"/><circle cx="50" cy="50" r="14" fill="#18181B"/><text x="50" y="55" font-family="monospace" font-size="14" font-weight="900" fill="#FEF08A" text-anchor="middle">!</text></svg>`
+      },
+      {
+        tier: 2,
+        range: [11, 18],
+        title: "【執行工具人·成效報表守門員】",
+        badgeTitle: "螺絲釘藍色齒輪章",
+        badgeTier: "TIER 2 · OPERATOR",
+        desc: "你精通後台的點擊率與成本數字，但常常陷入「點擊很高但沒有品牌回想」的無效勤奮。你具備基本技能，但缺少跳出規格表的大局觀。",
+        memo: "打破廣告末日循環！徐莉媛提醒：把精力投入在高品質注意力（APM）與社群真實討論，不要只給客戶交無感的報表。",
+        svg: `<svg class="w-16 h-16" viewBox="0 0 100 100" fill="none"><circle cx="50" cy="50" r="42" fill="#0E1424" stroke="#00F0FF" stroke-width="4"/><circle cx="50" cy="50" r="22" fill="#00F0FF" stroke="#080C14" stroke-width="3"/><circle cx="50" cy="50" r="8" fill="#080C14"/></svg>`
+      },
+      {
+        tier: 3,
+        range: [19, 24],
+        title: "【實戰操盤手·數據浪潮衝浪客】",
+        badgeTitle: "衝浪板翠綠破浪章",
+        badgeTier: "TIER 3 · SURFER",
+        desc: "做得很好！你已經深刻理解到 AI 時代「偏心勝過規格」的道理。你重視第一方數據與社群共鳴，能在複雜的通路中靈活切換策略。",
+        memo: "嘗試導入 People Model「先模擬再決策」的觀念，在提企劃前先用 AI 虛擬受眾驗證切角，讓你的案子百發百中！",
+        svg: `<svg class="w-16 h-16" viewBox="0 0 100 100" fill="none"><rect x="12" y="12" width="76" height="76" rx="16" fill="#0E1424" stroke="#10B981" stroke-width="4"/><path d="M22,65 C38,45 62,45 78,65" stroke="#10B981" stroke-width="7" stroke-linecap="round"/><circle cx="50" cy="32" r="8" fill="#FF6B00"/></svg>`
+      },
+      {
+        tier: 4,
+        range: [25, 28],
+        title: "【增長架構師·全域佈局戰略家】",
+        badgeTitle: "雙星紫金策略章",
+        badgeTier: "TIER 4 · ARCHITECT",
+        desc: "厲害！你已經具備高階決策者的全知視野。你深知如何將 AI 工具當成模擬器，同時在創意端極大化人性溫度與文化價值，懂得建立不可撼動的品牌韌性！",
+        memo: "持續磨練強義明總監所說的「衡斷力 (Judgment)」，成為團隊中那個能為 AI 生成內容承擔商業責任的核心舵手。",
+        svg: `<svg class="w-16 h-16" viewBox="0 0 100 100" fill="none"><polygon points="50,10 62,38 90,40 68,60 75,88 50,74 25,88 32,60 10,40 38,38" fill="#0E1424" stroke="#A855F7" stroke-width="4"/><circle cx="50" cy="50" r="14" fill="#A855F7"/></svg>`
+      },
+      {
+        tier: 5,
+        range: [29, 30],
+        title: "【通透行銷大師·超強大腦先知】",
+        badgeTitle: "全知之眼黑金徽章",
+        badgeTier: "TIER 5 · GRAND MASTER",
+        desc: "頂禮膜拜！你已完全參透電通 2026《決策智慧》的終極哲學！你明白「AI 越近，人越要回歸真實」的真諦。在演算法比價的年代，你手握真實瑕疵、偏心哲學與 People Model 的全套兵法，無人能截胡你的品牌！",
+        memo: "你已具備制定商業規則的高度！把這套理念帶回你的企業，重塑品牌與人的真實距離！",
+        svg: `<svg class="w-16 h-16" viewBox="0 0 100 100" fill="none"><circle cx="50" cy="50" r="44" fill="#0E1424" stroke="#00F0FF" stroke-width="4"/><path d="M25,50 Q50,28 75,50 Q50,72 25,50 Z" fill="#00F0FF"/><circle cx="50" cy="50" r="9" fill="#080C14"/><circle cx="52" cy="48" r="3" fill="#39FF14"/></svg>`
+      }
+    ];
+
+    let userScores = {};
+    const totalQ = 5;
+
+    function handleQuizAnswer(q, score) {
+      userScores[q] = score;
+      const current = document.querySelector(`.quiz-item[data-q="${q}"]`);
+      current.classList.add('hidden');
+
+      const nextQ = q + 1;
+      const next = document.querySelector(`.quiz-item[data-q="${nextQ}"]`);
+
+      if (next) {
+        next.classList.remove('hidden');
+        document.getElementById('quiz-step-title').textContent = `QUESTION ${nextQ} / ${totalQ}`;
+        document.getElementById('quiz-bar-fill').style.width = `${(nextQ / totalQ) * 100}%`;
+      } else {
+        renderQuizResult();
+      }
+    }
+
+    function renderQuizResult() {
+      document.getElementById('quiz-card-stack').classList.add('hidden');
+      document.getElementById('quiz-progress-wrapper').classList.add('hidden');
+      const resultView = document.getElementById('quiz-result-view');
+      resultView.classList.remove('hidden');
+
+      const total = Object.values(userScores).reduce((a, b) => a + b, 0);
+      const rank = assessmentRanks.find(r => total >= r.range[0] && total <= r.range[1]) || assessmentRanks[0];
+
+      document.getElementById('quiz-final-score-pill').textContent = `SCORE: ${total} / 30`;
+      document.getElementById('quiz-badge-svg').innerHTML = rank.svg;
+      document.getElementById('quiz-badge-title').textContent = rank.badgeTitle;
+      document.getElementById('quiz-badge-tier').textContent = rank.badgeTier;
+      document.getElementById('quiz-rank-name').textContent = rank.title;
+      document.getElementById('quiz-rank-description').textContent = rank.desc;
+      document.getElementById('quiz-rank-memo').textContent = rank.memo;
+
+      if (window.confetti && total >= 18) {
+        confetti({
+          particleCount: total === 30 ? 70 : 35,
+          spread: 65,
+          origin: { y: 0.6 },
+          colors: ['#00F0FF', '#FF6B00', '#10B981']
+        });
+      }
+
+      resultView.scrollIntoView({ behavior: 'smooth' });
+      lucide.createIcons();
+    }
+
+    function resetAssessment() {
+      userScores = {};
+      document.querySelectorAll('.quiz-item').forEach(el => el.classList.add('hidden'));
+      document.querySelector('.quiz-item[data-q="1"]').classList.remove('hidden');
+      document.getElementById('quiz-step-title').textContent = `QUESTION 1 / ${totalQ}`;
+      document.getElementById('quiz-bar-fill').style.width = `20%`;
+      document.getElementById('quiz-card-stack').classList.remove('hidden');
+      document.getElementById('quiz-progress-wrapper').classList.remove('hidden');
+      document.getElementById('quiz-result-view').classList.add('hidden');
+    }
+
+    // Copy memo button
+    document.getElementById('btn-copy-certificate').addEventListener('click', () => {
+      const title = document.getElementById('quiz-rank-name').innerText;
+      const score = document.getElementById('quiz-final-score-pill').innerText;
+      const badge = document.getElementById('quiz-badge-title').innerText;
+      const memo = document.getElementById('quiz-rank-memo').innerText;
+
+      const text = `【2026 決策智慧：重塑真實距離 段位認證】\n徽章：${badge}\n段位：${title} (${score})\n生存便箋：${memo}\n\n重生之我是行銷大師 — 電通《決策智慧 2026》線上全息展讀誌`;
+
+      const ta = document.createElement('textarea');
+      ta.value = text;
+      ta.style.position = 'fixed';
+      ta.style.left = '-9999px';
+      document.body.appendChild(ta);
+      ta.focus();
+      ta.select();
+      try {
+        document.execCommand('copy');
+        triggerToast("認證結果與開掛便箋已複製！");
+      } catch (e) {
+        triggerToast("請截圖保存！");
+      }
+      document.body.removeChild(ta);
+    });
+
+    function triggerToast(msg) {
+      const toast = document.getElementById('app-toast');
+      document.getElementById('app-toast-msg').textContent = msg;
+      toast.classList.remove('translate-y-24', 'opacity-0');
+      toast.classList.add('translate-y-0', 'opacity-100');
+      setTimeout(() => {
+        toast.classList.add('translate-y-24', 'opacity-0');
+        toast.classList.remove('translate-y-0', 'opacity-100');
+      }, 2400);
+    }
+
+    window.onload = function() {
+      lucide.createIcons();
+      updateMagazineView();
+    };
+  </script>
+</body>
+</html>
